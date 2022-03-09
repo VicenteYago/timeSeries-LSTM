@@ -25,6 +25,10 @@ python -m ipykernel install --user --name=LSTM
 ## Single lag timestep: 
 We will frame the supervised learning problem as predicting the pollution at the current hour (t) given the pollution measurement and weather conditions at the prior time step.
 
+LSTM results in a persistence or naive model: 
+
+y(t) = y(t-1)
+
 ## Multiple lag timestep: 
 
 
