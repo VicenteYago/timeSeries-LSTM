@@ -2,6 +2,9 @@
 Multivariate Time Series Forecasting with LSTMs in Keras
 
 
+Source: https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
+
+
 ```{bash}
 conda create -n LSTM python=3.8
 ```
@@ -10,7 +13,7 @@ conda create -n LSTM python=3.8
 conda install -y numpy scipy matplotlib ipython pandas sympy nose
 conda install -y -c conda-forge keras
 conda install -y -c conda-forge tensorflow
-conda install -y sklearn
+conda install -y -c conda-forge scikit-learn 
 ```
 
 ```{bash}
