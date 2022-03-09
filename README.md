@@ -10,6 +10,7 @@ conda create -n LSTM python=3.8
 conda install -y numpy scipy matplotlib ipython pandas sympy nose
 conda install -y -c conda-forge keras
 conda install -y -c conda-forge tensorflow
+conda install -y sklearn
 ```
 
 ```{bash}
