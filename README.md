@@ -34,3 +34,4 @@ We will frame the supervised learning problem as predicting the pollution at the
 
 - https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/
 - https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
+- https://machinelearningmastery.com/suitability-long-short-term-memory-networks-time-series-forecasting/
