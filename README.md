@@ -1,8 +1,5 @@
 # timeSeries-LSTM
-Multivariate Time Series Forecasting with LSTMs in Keras
-
-
-Source: https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
+Multivariate Time Series Forecasting with LSTMs in Keras for minutely pollution data. 
 
 
 ```{bash}
@@ -41,6 +38,7 @@ LSTM results in a persistence or naive model:
 
 # Resources : 
 
+-  https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 - https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/
 - https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
 - https://machinelearningmastery.com/suitability-long-short-term-memory-networks-time-series-forecasting/
