@@ -7,6 +7,7 @@ Source: https://machinelearningmastery.com/multivariate-time-series-forecasting-
 
 ```{bash}
 conda create -n LSTM python=3.8
+conda activate LSTM
 ```
 
 ```{python}
