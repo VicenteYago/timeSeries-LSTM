@@ -28,7 +28,7 @@ We will frame the supervised learning problem as predicting the pollution at the
 
 LSTM results in a persistence or naive model: 
 
-y(t) = y(t-1)
+**y(t) = y(t-1)**
 
 ![Screenshot_20220314_165428](https://user-images.githubusercontent.com/16523144/158210672-3f41d17c-1030-414f-9cd0-9a83785e5d0a.png)
 
