@@ -1,12 +1,10 @@
 # timeSeries-LSTM
-Multivariate Time Series Forecasting with LSTMs in Keras
-
-
-Source: https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
+Multivariate Time Series Forecasting with LSTMs in Keras for minutely pollution data. 
 
 
 ```{bash}
 conda create -n LSTM python=3.8
+conda activate LSTM
 ```
 
 ```{python}
@@ -22,20 +20,25 @@ python -m ipykernel install --user --name=LSTM
 ```
 
 
-## Single lag timestep: 
+## Single lag timestep
 We will frame the supervised learning problem as predicting the pollution at the current hour (t) given the pollution measurement and weather conditions at the prior time step.
 
 LSTM results in a persistence or naive model: 
 
-y(t) = y(t-1)
+**y(t) = y(t-1)**
 
-## Multiple lag timestep: 
+![Screenshot_20220314_165428](https://user-images.githubusercontent.com/16523144/158210672-3f41d17c-1030-414f-9cd0-9a83785e5d0a.png)
+
+
+
+## Multiple lag timestep (Building)
 
 
 
 
 # Resources : 
 
+-  https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
 - https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/
 - https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
 - https://machinelearningmastery.com/suitability-long-short-term-memory-networks-time-series-forecasting/
